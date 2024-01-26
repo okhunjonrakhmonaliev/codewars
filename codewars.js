@@ -7,7 +7,7 @@
       
 //     }
 
-///////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 
 // 2 - masala
 
@@ -26,7 +26,7 @@
 //     return -Math.abs(num);
 //  }
  
-////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////
 
 // 3 - masala
 
@@ -58,6 +58,43 @@
 // function positiveSum(arr) {
 //     return arr.reduce((a,b) => a + (b > 0 ? b : 0), 0);
 // }
+
+///////////////////////////////////////////////////////////////////////
+
+// 4-masala
+
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+
+// 1.way
+// function solution(str){
+//     let revstr = '';
+//     for (let i = s.length - 1; i >= 0; i--)
+//       revstr += s[i];
+//     return revstr;
+//   }
+
+// 2.way
+// function solution(str){
+//     return str.split('').reverse().join('');  
+//   }
+
+//   3.way
+//   const solution = s => [...s].reverse().join('')
+
+//   4.way
+//   function solution(str){
+//     let n = ''
+//     for(let i of str){
+//       n = i+n
+//     }
+//     return n
+//   }
+
+//   5.way
+//   function solution(str){
+//     return str.length > 0 ? solution(str.substring(1)) + str.charAt(0) : '';
+//   }
   
 
 
