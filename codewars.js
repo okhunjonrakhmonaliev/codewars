@@ -107,6 +107,35 @@
 //     return bool === true ? "Yes" : "No";
 //   }
 
+//////////////////////////////////////////////////////////////////////
+
+// 6 - masala
+
+// 1.way
+
+// We need a function that can transform a number (integer) into a string.
+
+// What ways of achieving this do you know?
+
+// Examples (input --> output):
+// 123  --> "123"
+// 999  --> "999"
+// -100 --> "-100"
+
+// function numberToString(num) {
+//     return num.toString();
+//   }
+
+// 2.way
+//   function numberToString(num) {
+//     // Return a string of the number here!
+//     return String(num);
+//   }
+
+// 3.way
+//   const numberToString = num => `${num}`;
+
+
 
   
 
