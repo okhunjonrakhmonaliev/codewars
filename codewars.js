@@ -1,10 +1,8 @@
-
-
 // 1-masala
 
 // function evenOrOdd(number) {
 //     return   number % 2 === 0 ? "Even" :"Odd";
-      
+
 //     }
 
 //////////////////////////////////////////////////////////////////////////////////////
@@ -25,7 +23,7 @@
 // function makeNegative(num) {
 //     return -Math.abs(num);
 //  }
- 
+
 ////////////////////////////////////////////////////////////////////////////////////
 
 // 3 - masala
@@ -40,7 +38,7 @@
 // function positiveSum(arr) {
 //     filtered = arr.filter((value) => value > 0 );
 //     return filtered.reduce((a,b) => a+b, 0 )
-   
+
 //   }
 
 // 2.way
@@ -53,7 +51,7 @@
 //     }
 //     return sum;
 // }
-  
+
 // 3.way
 // function positiveSum(arr) {
 //     return arr.reduce((a,b) => a + (b > 0 ? b : 0), 0);
@@ -76,7 +74,7 @@
 
 // 2.way
 // function solution(str){
-//     return str.split('').reverse().join('');  
+//     return str.split('').reverse().join('');
 //   }
 
 //   3.way
@@ -135,16 +133,36 @@
 // 3.way
 //   const numberToString = num => `${num}`;
 
+////////////////////////////////////////////////////
 
+// 7 - masala;
 
-  
+// Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
 
+// Examples:
 
+// 1: -1
+// 14: -14
+// -34: 34
 
+// 1.way
 
+// function opposite(number) {
+//     return number > 0 ? -number : Math.abs(number);
+//   }
 
+//   2.way
 
+// function opposite(number) {
+//     return number * (-1);
+// }
 
+// 3.way
 
-
-
+//   function opposite(number) {
+//     if(number > 0){
+//       return -Math.abs(number)
+//     } else {
+//       return Math.abs(number)
+//      }
+//   }
